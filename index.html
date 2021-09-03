@@ -11,9 +11,12 @@
   h1,h2,h3{line-height:1.2}
   blockquote{font-style:italic}
   a.internal{
-      border-bottom: 1px dashed #999;
-      text-decoration: none;
-      color: inherit;
+    text-decoration-style: dashed;
+    text-decoration-color: #999;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: from-font;
+    text-underline-offset: .05em;
+    color: inherit;
   }
   a.external{
       border-bottom: 1px solid #999;
@@ -25,5 +28,5 @@
 <title>luscus.net</title>
 <h1>luscus.net</h1>
 <blockquote>
-  <a href="rex-est-luscus" class="internal" title="(In the domain of the blind the one-eyed man is king.)">In regione caecorum rex est luscus.</a>
+  <a href="rex-est-luscus" class="internal" title="(&quot;In the domain of the blind the one-eyed man is king.&quot;)">In regione caecorum rex est luscus.</a>
 </blockquote>
