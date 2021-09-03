@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<style>
+  body{
+      bg-color:111;
+      color:#001f3f;
+      margin:40px auto;
+      max-width:650px;
+      line-height:1.6;
+      font-size:18px;
+      padding:0 10px}
+  h1,h2,h3{line-height:1.2}
+  blockquote{font-style:italic}
+  a.internal{
+      border-bottom: 1px dashed #999;
+      text-decoration: none;
+      color: inherit;
+  }
+  a.external{
+      border-bottom: 1px solid #999;
+      text-decoration: none;
+      color: inherit;
+  }
+</style>
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+<title>rex est luscus</title>
+<h1>rex est luscus</h1>
+<blockquote>
+  <p>In regione caecorum rex est luscus.
+  <p>In the domain of the blind the one eyed man is king.
+  <citation>Erasmus
+</blockquote>
